@@ -1,1 +1,5 @@
-index.erb
+<ul>
+    <% @owners.each do |owner|%>
+    <li><%= owner.name %>, <%= owner.id %></li>
+    <% end %>
+</ul>
