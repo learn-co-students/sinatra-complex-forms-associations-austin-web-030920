@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2) do
 
   create_table "owners", force: :cascade do |t|
     t.string "name"
+    t.integer "pet_id"
   end
 
   create_table "pets", force: :cascade do |t|
